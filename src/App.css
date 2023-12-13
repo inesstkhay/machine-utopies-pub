@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  cursor: crosshair;
+  background-color: black;
+  background-size: contain; /* or 'contain' depending on your preference */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: cover; /* Adjust the height as needed */
+  width: cover;
+}
+
+.controls {
+  position: absolute;
+  bottom: 1rem;
+  right: 50%;
+  transform: translateX(50%);
+  height: 2rem;
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+}
+
+.controls > * + * {
+  margin-left: 0.5rem;
+}
+
+.controls-input {
+  width: 2rem;
+  height: 2rem;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+}
+
+.controls-input.controls-size {
+  /* Add any other styling you need */
+  filter: grayscale(100%) contrast(500%); /* Convert to black and white with increased contrast */
+}
+
+.controls-size {
+  width: auto;
+}
+
+.controls-color {
+  padding: 0.15rem 0.2rem;
+}
+
+.controls-clear  {
+  font-size: 1.2rem;
+}
+
+.controls-download  {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
