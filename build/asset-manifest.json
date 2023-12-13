@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.7f7edf47.css",
-    "main.js": "./static/js/main.1eb26c04.js",
-    "index.html": "./index.html",
-    "main.7f7edf47.css.map": "./static/css/main.7f7edf47.css.map",
-    "main.1eb26c04.js.map": "./static/js/main.1eb26c04.js.map"
+    "main.css": "/machine-utopies-pub/static/css/main.7f7edf47.css",
+    "main.js": "/machine-utopies-pub/static/js/main.1eb26c04.js",
+    "index.html": "/machine-utopies-pub/index.html",
+    "main.7f7edf47.css.map": "/machine-utopies-pub/static/css/main.7f7edf47.css.map",
+    "main.1eb26c04.js.map": "/machine-utopies-pub/static/js/main.1eb26c04.js.map"
   },
   "entrypoints": [
     "static/css/main.7f7edf47.css",
